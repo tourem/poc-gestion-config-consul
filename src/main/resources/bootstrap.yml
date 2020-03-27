@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: poc-gestion-config-consul
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
